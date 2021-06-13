@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{B511644C-E382-4851-A4EC-AC385568A21D}"
 	ProjectSection(SolutionItems) = preProject
 		FlightControl.sql = FlightControl.sql
+		scripts\FlightControl.sql = scripts\FlightControl.sql
 	EndProjectSection
 EndProject
 Global

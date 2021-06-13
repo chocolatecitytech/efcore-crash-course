@@ -1,4 +1,4 @@
-#A Crash Course: Entity Framework Core
+# A Crash Course: Entity Framework Core
 
 ## A crash course with detailed introduction and some best practices.
 

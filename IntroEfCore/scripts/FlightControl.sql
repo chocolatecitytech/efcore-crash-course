@@ -164,38 +164,38 @@ GO
 
 --discounttypes
 INSERT INTO [dbo].[DiscountTypes]
-           ([Key]
-           ,[Name])
-     VALUES
-           ('69600258-fbf5-49c3-a32c-afd57ff76c6e','percent'),
+		   ([Key]
+		   ,[Name])
+	 VALUES
+		   ('69600258-fbf5-49c3-a32c-afd57ff76c6e','percent'),
 		   ('3ffd1464-08e0-4aba-8da2-1b7d8db520b7','flat-rate')
 GO
 
 
 --flights
 INSERT INTO [dbo].[Flights]
-           ([Id]
-           ,[FlightName]
-           ,[FromLocation]
-           ,[ToLocation]
-           ,[Departure]
-           ,[Arrival]
-           ,[TotalSeat])
-     VALUES
-           (1,'To Ghana and Back','DC','Ghana','2021-06-07 08:00','2021-06-07 20:00',900),
+		   ([Id]
+		   ,[FlightName]
+		   ,[FromLocation]
+		   ,[ToLocation]
+		   ,[Departure]
+		   ,[Arrival]
+		   ,[TotalSeat])
+	 VALUES
+		   (1,'To Ghana and Back','DC','Ghana','2021-06-07 08:00','2021-06-07 20:00',900),
 		   (2,'Aloha','NYC','Hawaii','2021-07-17 10:00','2021-06-07 20:00',700),
 		   (3,'Windy City','ATL','Chicago','2021-08-17 10:00','2021-06-07 15:00',600)
 GO
 --passengers
 INSERT INTO [dbo].[Passengers]
-           ([Key]
-           ,[FirstName]
-           ,[LastName]
-           ,[Address]
-           ,[Phone]
-           ,[Email])
-     VALUES
-           ('17e13d53-193c-476f-ba41-b939ac0c5a46','Deeroc','Man','12 DC road','111-111-1111','deeroc@dc.com'),
+		   ([Key]
+		   ,[FirstName]
+		   ,[LastName]
+		   ,[Address]
+		   ,[Phone]
+		   ,[Email])
+	 VALUES
+		   ('17e13d53-193c-476f-ba41-b939ac0c5a46','Deeroc','Man','12 DC road','111-111-1111','deeroc@dc.com'),
 		   ('9fb3311e-ebb0-4be0-ab2a-c000d64f9c97','Buyer1','Doe','56 Main road','111-111-1112','buyer1@dc.com'),
 		   ('cf054a3d-9a97-43d6-8f50-0dba7b0f0dff','Passenger1','LastName','5 Passenger Road','111-111-1114','Passenger1@dc.com'),
 		   ('5606eabf-5666-4691-8ac6-2a62cb65efd9','Passenger56','Snipes','56 Passenger Road','111-111-1115','Passenger56@dc.com')
